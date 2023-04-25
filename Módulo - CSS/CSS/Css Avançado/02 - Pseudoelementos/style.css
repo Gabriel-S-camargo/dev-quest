@@ -1,0 +1,25 @@
+.first-letter::first-letter {
+    color: coral;
+    font-weight: bold;
+} 
+
+.first-line::first-line {
+    color: blue;
+}
+
+li::marker {
+    color: red;
+    font-size: 24px;
+}
+
+h2::before {
+    content: url(BerserkerArmor.png);
+    max-width: 200px;
+    max-height: 100px; 
+    text-align: center;
+
+}
+
+h2::before {
+    content: url(BerserkerArmor.png);
+}

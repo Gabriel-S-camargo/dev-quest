@@ -1,0 +1,34 @@
+:root{
+    --cor-padrão: green;
+    --tamanho-de-fonte-padrão: 30px;
+}
+
+h2{
+    --cor-padrão: red;
+
+    color: var(--cor-padrão, green);
+    font-size: var(--tamanho-de-fonte-padrão, 30px); 
+    background-color: var(--cor-padrão);
+
+} 
+
+h3{
+
+    color: var(--cor-padrão, green);
+    font-size: var(--ta--tamanho-de-fonte-padrão, 30px);
+
+}
+
+p{
+
+    color: var(--cor-padrão, green);
+    font-size: var(--ta--tamanho-de-fonte-padrão, 30px);
+
+}
+
+span{
+
+    color: var(--cor-padrão, green);
+    font-size: var(--ta--tamanho-de-fonte-padrão, 30px);
+
+}

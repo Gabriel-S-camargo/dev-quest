@@ -1,0 +1,9 @@
+.produtos{
+    background-color: rgb(0, 191, 255);
+}
+
+.produtos span{
+    background-color: black; 
+    color: red;
+    font-size: 30px;
+}
