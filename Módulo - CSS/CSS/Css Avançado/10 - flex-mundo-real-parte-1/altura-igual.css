@@ -1,3 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
 .flex {
     display: flex;
     width: 960px;
@@ -25,10 +33,9 @@
 
 .botao {
     /*align-self: flex-start;*/
-    background-color: black;
+    background-color:aliceblue;
     padding: 5px;
-    margin-top: auto; 
-    color: red; 
+    margin-top: auto;  
     border: 2px solid black;
     border-radius: 20px;
     
