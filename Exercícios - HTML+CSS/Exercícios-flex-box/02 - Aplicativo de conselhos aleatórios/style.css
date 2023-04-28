@@ -78,4 +78,17 @@ a{
     border-left:150px solid hsl(218, 23%, 16%);
     border-right:150px solid hsl(218, 23%, 16%); ;
 
+} 
+
+@media(min-width: 768px) {
+    .container{
+        padding-inline:50px;
+        width: 386px;
+    }
+    
+    .advice-text{
+        font-size: 21px;
+        padding: 26px;
+
+    }
 }
