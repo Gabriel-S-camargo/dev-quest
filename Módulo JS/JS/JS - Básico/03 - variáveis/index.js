@@ -1,7 +1,21 @@
-var pessoa = "Roberto" 
+/*{
 
-const emailpessoa = "roberto@gmail.com"
+    var pessoa = "Roberto" 
+    
+    const emailpessoa = "roberto@gmail.com"
+    
+    nomepessoa = "Ricardo"
+    
+    let telefonepessoa = "41991914949"
+} */
 
-emailpessoa = "cadu@gmail.com"
+//console.log(nomepessoa)
 
-console.log(emailpessoa)
+let retornoDoUsuario = confirm ("Deseja continuar")
+
+console.log(retornoDoUsuario)
+
+let idade = prompt("Digite sua idade:") 
+
+console.log(idade)
+
