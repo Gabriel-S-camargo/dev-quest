@@ -1,3 +1,0 @@
-//for (inicializador; condição; incremento)
-//
-
