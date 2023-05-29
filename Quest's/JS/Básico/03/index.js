@@ -29,3 +29,15 @@
 
 // retur.addEventListener("click", returncontent );
 
+const vaiSeHospedar = confirm ('Seja bem vindo(a) aventureiro(a)! Gostaria de pagar R$ 50,00 apra passar a noite na nossa hospedagem ?')
+
+console.log(vaiSeHospedar)
+
+if(vaiSeHospedar){
+    alert('Ótimo nos temos as melhores camas da região')
+}else{
+    alert('Que pena! Você parecia uma pessoa mais legal')
+}
+
+
+
