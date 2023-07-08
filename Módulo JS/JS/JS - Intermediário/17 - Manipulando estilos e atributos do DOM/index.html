@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando estilos e atributos do DOM</title>
+    <style>
+    .fonte-grande{
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Manipulando estilos</h1>
+
+    <button onclick="alterarCorDeFundoPrimeiroPost()">alterar cor de fundo do primeiro post</button>
+
+    <br>
+    <br>
+
+    <button onclick="aumentarFonte()">Aumentar Fonte</button>
+
+    <article class="post">
+        <p>
+            <strong>
+                Ricardo Dias
+            </strong>
+            <span>
+                @CaduHD - 10min
+            </span>
+        </p>
+        <p class="texto-post">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius et fugit, ex voluptates consequuntur quidem quis assumenda dolor earum minus eveniet omnis ipsam incidunt! Qui in aut nisi odit excepturi?
+        </p> 
+        <br>
+    </article>
+
+    <article class="post">
+        <p>
+            <strong>
+                Ricardo Dias
+            </strong>
+            <span>
+                @CaduHD - 10min
+            </span>
+        </p>
+        <p class="texto-post">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius et fugit, ex voluptates consequuntur quidem quis assumenda dolor earum minus eveniet omnis ipsam incidunt! Qui in aut nisi odit excepturi?
+        </p> 
+        <br>
+    </article> 
+
+    <h2>Manipulando Atribuutos</h2>
+
+    <button onclick="marcarRadio('F')">Marcar Radio Feminino</button>
+
+    <button onclick="marcarRadio('M')">Marcar Radio Masculino</button>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
