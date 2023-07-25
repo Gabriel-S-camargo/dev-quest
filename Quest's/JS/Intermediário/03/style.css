@@ -1,0 +1,15 @@
+#quadrado{
+    height: 30vh;
+    width: 30vw;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.preto{
+    background-color: black;
+} 
+
+.azul{
+    background-color: blue;
+}
