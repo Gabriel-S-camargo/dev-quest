@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="src/CSS/reset.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -13,35 +13,62 @@
 </head>
 
 <body>
-    <section>
-        <div class="backgorund-image">
-            <div class="seta-esquerda">
-                <a href="#">
-                    <img src="src/seta esquerda blur" alt="seta esquerda"></a>
-            </div>
-            <div class="container">
-                <div class="title">Titulo Imagem 1</div>
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A excepturi, odit ex voluptas itaque
-                        voluptatibus, corrupti hic dolorem aliquid earum, recusandae provident? Fugiat distinctio
-                        voluptas iste nemo laboriosam at laudantium?Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Eveniet nisi quo est molestiae incidunt, modi voluptas? Accusantium, ipsa iste explicabo
-                        ducimus minima, et nostrum pariatur reiciendis vero dolorum cupiditate error.</p>
-                </div>
+    <div class="imagens-slider">
+        <a href="#" id="seta-voltar" class="seta-voltar opacidade">
+            <img class="imagem-seta" src="src/imagens/seta direita" alt="seta voltar" />
+        </a>
 
-                <div class="know-more">
-                    <a href="#">Know more</a>
-                </div>
+        <div class="slide slide-rosa mostrar">
+            <div class="conteudo">
+                <h2 class="titulo">Título Imagem 1</h2>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium, laudantium
+                    officia dolore sapiente non dolores dolorem aut odit repellendus sequi maiores vero consequatur
+                    ipsum? Mollitia dolores repellendus est dicta.</p>
+                <a class="botao rosa" href="#">Saiba Mais</a>
             </div>
-            <div class="seta-direita">
-                <a href="#">
-                    <img src="src/seta direita" alt="seta direita"></a>
-            </div>
+
         </div>
-    </section>
 
+        <div class="slide slide-verde ">
+            <div class="conteudo">
+                <h2 class="titulo">Título Imagem 1</h2>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium, laudantium
+                    officia dolore sapiente non dolores dolorem aut odit repellendus sequi maiores vero consequatur
+                    ipsum? Mollitia dolores repellendus est dicta.</p>
+                <a class="botao verde" href="#">Saiba Mais</a>
+            </div>
 
-    <script type="text/javascript" src="index.js"></script>
+        </div>
+
+        <div class="slide slide-laranja ">
+            <div class="conteudo">
+                <h2 class="titulo">Título Imagem 1</h2>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium, laudantium
+                    officia dolore sapiente non dolores dolorem aut odit repellendus sequi maiores vero consequatur
+                    ipsum? Mollitia dolores repellendus est dicta.</p>
+                <a class="botao laranja" href="#">Saiba Mais</a>
+            </div>
+
+        </div>
+
+        <div class="slide slide-azul ">
+            <div class="conteudo">
+                <h2 class="titulo">Título Imagem 1</h2>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusantium, laudantium
+                    officia dolore sapiente non dolores dolorem aut odit repellendus sequi maiores vero consequatur
+                    ipsum? Mollitia dolores repellendus est dicta.</p>
+                <a class="botao azul" href="#">Saiba Mais</a>
+            </div>
+
+        </div>
+        <a href="#" id="seta-avancar" class="seta-avancar">
+            <img class="imagem-seta" src="src/imagens/seta direita" alt="seta-avancar" />
+        </a>
+
+    </div>
+
+    <script type="text/javascript" src="src/JS/slider.js">
+    </script>
 </body>
 
 </html>
